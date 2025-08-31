@@ -28,6 +28,7 @@ const menuItems = [
   { name: 'Education', href: '/admin/education', icon: GraduationCap },
   { name: 'Projects', href: '/admin/projects', icon: FolderOpen },
   { name: 'Social Links', href: '/admin/social-links', icon: LinkIcon },
+  { name: 'Settings', href: '/admin/settings', icon: Settings },
 ];
 
 export function AdminSidebar() {
