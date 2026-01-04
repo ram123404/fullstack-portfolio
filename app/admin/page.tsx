@@ -233,6 +233,27 @@ export default function AdminDashboard() {
               </motion.a>
               
               <motion.a
+                href="/template-selection"
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                className="p-4 border border-border rounded-lg hover:border-primary/50 transition-colors group"
+              >
+                <div className="flex items-center space-x-3">
+                  <div className="p-2 bg-purple-100 dark:bg-purple-900/30 rounded-lg">
+                    <Palette className="h-4 w-4 text-purple-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold group-hover:text-primary transition-colors">
+                      Choose Template
+                    </h3>
+                    <p className="text-sm text-muted-foreground">
+                      Select your portfolio style
+                    </p>
+                  </div>
+                </div>
+              </motion.a>
+              
+              <motion.a
                 href="/admin/skills"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}

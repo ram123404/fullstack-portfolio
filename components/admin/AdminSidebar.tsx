@@ -29,6 +29,7 @@ const menuItems = [
   { name: 'Projects', href: '/admin/projects', icon: FolderOpen },
   { name: 'Social Links', href: '/admin/social-links', icon: LinkIcon },
   { name: 'Settings', href: '/admin/settings', icon: Settings },
+  { name: 'Template', href: '/template-selection', icon: Palette },
 ];
 
 export function AdminSidebar() {
