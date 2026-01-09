@@ -20,9 +20,10 @@ export function Footer() {
       try {
         const response = await fetch('/api/social-links');
         const data = await response.json();
-        setSocialLinks(data);
+        setSocialLinks(Array.isArray(data) ? data : []);
       } catch (error) {
         console.error('Error fetching social links:', error);
+        setSocialLinks([]);
       }
     };
 
