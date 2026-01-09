@@ -17,6 +17,7 @@ import {
   LogOut,
   Menu,
   X,
+  Palette,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
